@@ -10,8 +10,6 @@ const MyProfile = () => {
     const { data: session } = useSession()
     const router = useRouter()
 
-    console.log("creator", session)
-
     useEffect(() => {
         const fetchPost = async () => {
           const response = await fetch(`/api/users/${session?.user.id}/posts`)

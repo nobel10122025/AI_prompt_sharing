@@ -55,7 +55,6 @@ function Form({ type, post, setPost, submitting, handleSubmit }) {
           </button>
         </div>
       </form>
-
     </section>
   )
 }
